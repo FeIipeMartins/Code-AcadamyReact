@@ -1,0 +1,87 @@
+.Cabecalho {
+    background-color: #04994a8d;
+    padding: 15px 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Cabecalho__logo {
+    width: 102px;
+    margin-left: 61px;
+}
+
+.Cabecalho__acessos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.Controle_Usuario button {
+    FONT-FAMILY: systems-ui;
+    background-color: #146439ef;
+    color: white;
+    border: none;
+    padding: 15px 36px;
+    margin: 0 10px;
+    border-radius: 23px;
+}
+
+.Controle_Usuario button:hover {
+    background-color: #005cbf;
+}
+
+button {
+    background-color: #146439ef;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    outline: none;
+    margin-top: 20px;
+}
+
+button:hover,
+button:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #004494;
+    transform: translateY(1px);
+}
+
+.cadastro,
+.login {
+    margin: 5px;
+}
+
+.Barra-Pesquisa {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .user-info .user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .UserName {
+    margin-right: 10px;
+  }
